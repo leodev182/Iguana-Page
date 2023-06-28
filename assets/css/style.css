@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  font-family: "Raleway";
+  font-size: 3.5em;
+  letter-spacing: 5px;
+  color: white;
+  opacity: 1;
+}
+
+/*esta es la sección del Header que se divide en 2 partes
+... 1. parael fondo
+... 2. para el título*/
+
+body {
+  background-color: black;
+}
+
+.title {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  height: 73px;
+}
+
+.header {
+  background-image: url(../img/bg-header.jpg);
+  background-size: cover;
+  height: 90vh;
+  
+}
+
+/* Esta es la sección del Main cuyo contenido esta
+dedicado a exponer nuestro tema principal acompañado de 
+2 cajas. 1. texto explicativo, 2. imagen.*/
+
+main {
+  height: 348px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  gap: 100px;
+}
+
+.main-text {
+  width: 475px;
+  height: 197px;
+
+  text-align: left;
+  font: normal normal 300 16px/19px Raleway;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.main-img {
+  width: 399px;
+  height: 237px;
+}
+
+.main-img img {
+  width: 100%;
+}
+
+/* Esta sección contiene información adicional*/
+
+.container-info {
+  background-color: #1e1a13;
+  width: 100%;
+  height: 348px;
+}
+
+.title-info {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-info h3 {
+  font: normal normal 300 25px/30px Raleway;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.icon {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*el icono (fab) fa-hand-peace no existe, fue remplazado por (far) fa-hand-peace*/
+
+.icon h3 {
+  margin-top: 20px;
+}
+
+.icon article {
+  width: 25%;
+  text-align: center;
+}
+
+i {
+  color: #ffffff;
+  display: flex;
+  align-self: center;
+}
+
+/*Esta sección es ilustrativa*/
+
+.container {
+  height: 348px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container img {
+  width: 316px;
+  height: 202px;
+}
+
+/*Sección final, información general*/
+
+footer {
+  width: 100%;
+  height: 102px;
+  background-color: #1e1a13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.final {
+  width: 682px;
+  height: 24px;
+  color: #ffffff;
+  text-align: left;
+  font: normal normal 300 20px/24px Raleway;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 1;
+}
+
+/* Desafío Nro 3 Iguana Page... créditos DesafíoLatam...*/
